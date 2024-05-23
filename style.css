@@ -2,17 +2,23 @@
 
 .header, .footer{
     background-color: #1F2937;
-    justify-content: center;
-    color:antiquewhite;
-    padding: 20px;
+    justify-content: space-between;
+    color: #f9faf8;
+    padding: 30px;
     font-family: Roboto, sans-serif;
     
 }
 
 .header {
+    display: flex; 
+}
+.logo {
     display: flex;
-    
-    
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    flex-grow: 1;
+    padding: 15px 7%;
     
 }
 
@@ -29,27 +35,50 @@ ul {
 .content{
     display: flex;
     flex-direction: column;
-    padding: 20px;
     font-family: Roboto, sans-serif;
     
 }
 
 .flex1, .flex2, .flex3, .flex4 {
     display: flex;
-    border: 2px solid black;
-    padding: 20px;
+    padding: 30px;
     
 
 }
 .flex1 {
     background: #1F2937;
+    color: #f9faf8;
 }
+.title {
+    font-weight: bold;
+    font-size: 48px;
+}
+.button {
+    background-color: #3882f6;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
 .flex2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .images {
     display: flex;
+    flex-wrap: center;
+    padding: 20px;
+}
+.image{
+    margin: 10px;
 }
 .info {
     align-self: center;
@@ -58,13 +87,15 @@ ul {
 
 .photo {
     border: 2px solid black;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
 }
 
 .flex3{
     display: flex;
     flex-direction: column;
+    background: #E5E7EB;
 }
 
 .Author{
