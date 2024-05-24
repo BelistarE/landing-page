@@ -48,6 +48,7 @@ ul {
 .flex1 {
     background: #1F2937;
     color: #f9faf8;
+    flex: 1;
 }
 .title {
     font-weight: bold;
@@ -61,10 +62,11 @@ ul {
     padding: 5px;
 
 }
-.left-text {
+.flex1 .left-text {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
 }
 
 .flex2 {
