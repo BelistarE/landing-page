@@ -59,6 +59,7 @@ ul {
     max-width: 500px;
     padding: 10px;
     padding-left: 0;
+    padding-top: 0;
 }
 .subtext{
     font-size: 22px;
@@ -88,6 +89,7 @@ ul {
 }
 .phototop{
     align-items: center;
+    
 }
 
 .flex2 {
@@ -119,6 +121,15 @@ ul {
     display: flex;
     flex-direction: column;
     background: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    padding: 100px;
+    color: #1F2937; /* Change the color to the desired value */
+    font-style: italic; /* Make the text italic */
+    font-weight: light; 
+    
 }
 
 .Author{
