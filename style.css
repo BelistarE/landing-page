@@ -49,10 +49,19 @@ ul {
     background: #1F2937;
     color: #f9faf8;
     flex: 1;
+    justify-content: center;
+    border: 10px;
+    padding: 50px;
 }
 .title {
     font-weight: bold;
     font-size: 48px;
+    max-width: 500px;
+    padding: 10px;
+    padding-left: 0;
+}
+.subtext{
+    font-size: 22px;
 }
 .button {
     background-color: #3882f6;
@@ -60,13 +69,25 @@ ul {
     display: inline-block;
     border-radius: 5px;
     padding: 5px;
+    margin: 15px;
+    max-width: 100px;
+    margin-left: 0;
 
 }
 .flex1 .left-text {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+
     
+}
+
+.left-text {
+    max-width: 700px;
+    border: 20px;
+    padding-right: 40px;
+}
+.phototop{
+    align-items: center;
 }
 
 .flex2 {
