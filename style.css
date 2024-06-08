@@ -73,7 +73,13 @@ ul {
     margin: 15px;
     max-width: 100px;
     margin-left: 0;
+    font-size: 20px;
+    font-weight: bold;
 
+}
+.button-link{
+    text-decoration: none; 
+    color: inherit;
 }
 .flex1 .left-text {
     display: flex;
@@ -103,18 +109,31 @@ ul {
     padding: 20px;
 }
 .image{
-    margin: 10px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .info {
     align-self: center;
     font-weight: bold;
+    font-size: 40px;
+    color: #1f2937;
 }
 
 .photo {
-    border: 2px solid black;
-    height: 80px;
-    width: 80px;
+    border: 4px solid #3882f6;
+    height: 200px;
+    width: 200px;
     justify-content: center;
+    border-radius: 10px;
+
+}
+.text1{
+    max-width: 200px;
+    margin: 10px;
+    color:#1F2937;
 }
 
 .flex3{
@@ -126,12 +145,58 @@ ul {
 .quote{
     font-size: 36px;
     padding: 100px;
-    color: #1F2937; /* Change the color to the desired value */
-    font-style: italic; /* Make the text italic */
+    color: #1F2937; 
+    font-style: italic; 
     font-weight: light; 
+    padding-bottom: 40px;
     
 }
 
 .Author{
     text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px;
+    padding-right: 120px;
+    padding-top: 0;
+}
+
+.blue {
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px;
+    color:#F9FAF8;
+    align-items: center;
+    border-radius: 10px
+    
+}
+.flex4{
+    justify-content:center;
+}
+.call{
+    font-weight: bold;
+    font-size: 25px;
+}.button-link2{
+    border: 2px solid #F9FAF8; /* Black border */
+    border-radius: 10px; /* Curved border radius */
+    padding: 10px; /* Adjust padding as needed */
+    background-color: transparent; /* Transparent background */
+    cursor: pointer; /* Show pointer cursor on hover */
+    color: #F9FAF8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+
+
+}
+
+.blue-text{
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
 }
